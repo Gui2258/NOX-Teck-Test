@@ -5,9 +5,11 @@ import { NavBarMain } from '@/components/UI/Navbar/NavBarMain';
 export default function Home() {
     return (
         <>
-            <NavBarMain />
-            <Main />
-            <Better />
+            <div className="flex flex-col items-center justify-center py-2">
+                <NavBarMain />
+                <Main />
+                <Better />
+            </div>
         </>
     );
 }
