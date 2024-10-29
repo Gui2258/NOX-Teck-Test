@@ -1,6 +1,7 @@
 import { Better } from '@/components/UI/BetterSection/Better';
 import { Main } from '@/components/UI/Main/Main';
 import { NavBarMain } from '@/components/UI/Navbar/NavBarMain';
+import { StoriesMain } from '@/components/UI/StoriesSection/StoriesMain';
 
 export default function Home() {
     return (
@@ -9,6 +10,7 @@ export default function Home() {
                 <NavBarMain />
                 <Main />
                 <Better />
+                <StoriesMain />
             </div>
         </>
     );
