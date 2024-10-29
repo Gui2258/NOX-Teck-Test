@@ -22,7 +22,7 @@ export const Main: React.FunctionComponent = () => {
                         //placeholder="Enter your name"
                         variant="bordered"
                     />
-                    <Button className="bg-rosf" color="primary">
+                    <Button className="text-white" color="primary">
                         Start now
                     </Button>
                 </div>
