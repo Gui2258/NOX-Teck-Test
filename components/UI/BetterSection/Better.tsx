@@ -1,3 +1,4 @@
+import { MobileScreenIcon } from '@/icons/MobileScreenIcon';
 import { Button } from '@nextui-org/react';
 import React from 'react';
 
@@ -14,6 +15,8 @@ export const Better = () => {
             <Button className="text-white" color="primary">
                 Button text
             </Button>
+
+            <MobileScreenIcon />
         </div>
     );
 };
