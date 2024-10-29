@@ -1,5 +1,6 @@
 import { roboto } from '@/app/layout';
 import React from 'react';
+import { StoriesSlier } from './StoriesSlier';
 
 export const StoriesMain = () => {
     return (
@@ -12,6 +13,7 @@ export const StoriesMain = () => {
                 A, donec ornare sed turpis pulvinar purus maecenas quam a. Erat
                 porttitor pharetra sed in mauris elementum sollicitudin.
             </p>
+            <StoriesSlier />
         </div>
     );
 };
