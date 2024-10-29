@@ -1,6 +1,8 @@
+import { roboto } from '@/app/layout';
 import { DecoBottom } from '@/icons/DecoBottom';
 import { DecoTop } from '@/icons/DecoTop';
 import React from 'react';
+import { TestimonialCard } from './TestimonialCard';
 
 export const Testimonials = () => {
     return (
@@ -13,8 +15,13 @@ export const Testimonials = () => {
             </div>
 
             {/* Contenido del componente */}
-            <div className="relative z-10">
-                {/* Aquí va el contenido principal */}
+            <div className="relative z-10 flex w-full flex-col items-center justify-center">
+                <h1
+                    className={`gradientText mt-10 text-xl ${roboto.className}`}
+                >
+                    What other users say
+                </h1>
+                <TestimonialCard />
             </div>
         </div>
     );
