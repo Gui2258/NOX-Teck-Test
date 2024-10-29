@@ -16,7 +16,7 @@ export const StoriesCard: React.FunctionComponent<Props> = ({
     name,
 }) => {
     return (
-        <div>
+        <div className="m-10 w-52 snap-center border">
             <Image
                 src={`/assets/${imgage}`}
                 alt="Imagen del usuario  "

@@ -4,7 +4,7 @@ import { StoriesSlier } from './StoriesSlier';
 
 export const StoriesMain = () => {
     return (
-        <div className="w--full flex flex-col items-center justify-center gap-4">
+        <div className="w-full items-center justify-center gap-4">
             <h1 className={`gradientText text-xl ${roboto.className}`}>
                 Stories from our users
             </h1>

@@ -32,17 +32,18 @@ const mockStories: StoryCard[] = [
 
 export const StoriesSlier = () => {
     return (
-        <div className="h-screen w-full overflow-hidden">
-            <div className="h-full overflow-y-auto scroll-smooth p-4">
-                {mockStories.map((story) => (
-                    <StoriesCard
-                        name={story.title}
-                        description={story.description}
-                        imgage={story.image}
-                        key={story.id}
-                    />
-                ))}
-            </div>
+        <div
+            id="snapx"
+            className="flex max-w-full snap-x snap-proximity overflow-x-scroll"
+        >
+            {mockStories.map((story) => (
+                <StoriesCard
+                    key={story.id}
+                    name={story.title}
+                    description={story.description}
+                    imgage={story.image}
+                />
+            ))}
         </div>
     );
 };
