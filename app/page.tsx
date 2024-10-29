@@ -1,4 +1,5 @@
 import { Better } from '@/components/UI/BetterSection/Better';
+import { FavoritesTool } from '@/components/UI/FavoriteToolsSection/FavoritesTool';
 import { Main } from '@/components/UI/Main/Main';
 import { NavBarMain } from '@/components/UI/Navbar/NavBarMain';
 import { StoriesMain } from '@/components/UI/StoriesSection/StoriesMain';
@@ -13,6 +14,7 @@ export default function Home() {
                 <Better />
                 <StoriesMain />
                 <Testimonials />
+                <FavoritesTool />
             </div>
         </>
     );
