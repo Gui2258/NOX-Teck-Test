@@ -1,5 +1,6 @@
 import { roboto } from '@/app/layout';
 import { Button, Input } from '@nextui-org/react';
+import Image from 'next/image';
 import React from 'react';
 
 export const Main: React.FunctionComponent = () => {
@@ -24,8 +25,17 @@ export const Main: React.FunctionComponent = () => {
                         variant="bordered"
                     />
                     <Button className="bg-rosf" color="primary">
-                        Button
+                        Start now
                     </Button>
+                </div>
+
+                <div>
+                    <Image
+                        src={'/assets/mainImage.png'}
+                        width={400}
+                        height={200}
+                        alt="Customer Photo"
+                    />
                 </div>
             </main>
         </>
