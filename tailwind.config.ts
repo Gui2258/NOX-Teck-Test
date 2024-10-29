@@ -20,6 +20,10 @@ const config: Config = {
                 'custom-gradient':
                     'linear-gradient(to right, #4F46E5, #86198F)',
             },
+            gradientColor: {
+                'custom-gradient':
+                    'linear-gradient(to right, #86198F, rgb(134 25 143))',
+            },
         },
     },
     darkMode: 'class',
