@@ -1,5 +1,57 @@
-import { roboto } from '@/app/layout';
 import React from 'react';
+import { roboto } from '@/app/layout';
+import { DashboardIcon } from '@/icons/DashboardIcon';
+import { FinderIcon } from '@/icons/FInderIcon';
+import { FlagIcon } from '@/icons/FlagIcon';
+import { GearIcon } from '@/icons/GearIcon';
+import { MailIcon } from '@/icons/MailIcon';
+import { MapIcon } from '@/icons/MapIcon';
+import { MarkDown } from '@/icons/MarkDown';
+import { PigIcon } from '@/icons/PigIcon';
+import { ToolCard } from './ToolCard';
+
+const tools = [
+    {
+        icon: <FinderIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+    {
+        icon: <DashboardIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+    {
+        icon: <FlagIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+    {
+        icon: <GearIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+    {
+        icon: <MailIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+    {
+        icon: <MapIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+    {
+        icon: <MarkDown />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+    {
+        icon: <PigIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
+];
 
 export const FavoritesTool = () => {
     return (
@@ -13,6 +65,14 @@ export const FavoritesTool = () => {
                 sem erat et sit faucibus. Sollicitudin elit gravida tellus
                 mattis porttitor.
             </p>
+            {tools.map((tool, index) => (
+                <ToolCard
+                    icon={tool.icon}
+                    title={tool.title}
+                    description={tool.desc}
+                    key={index}
+                />
+            ))}
         </div>
     );
 };
