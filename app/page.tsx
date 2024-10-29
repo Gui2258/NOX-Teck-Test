@@ -1,9 +1,9 @@
-import { NavBarWMenu } from "@/components/UI/NavBar";
+import { NavBarMain } from "@/components/UI/NavBarMain";
 
 export default function Home() {
   return (
     <>
-      <NavBarWMenu />
+      <NavBarMain />
     </>
   );
 }

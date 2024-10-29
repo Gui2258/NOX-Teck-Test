@@ -1,0 +1,25 @@
+/* Secondary Headline */
+
+width: 567px;
+height: 62px;
+
+/* Heading/2 */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 110%;
+/* identical to box height, or 62px */
+text-align: center;
+
+/* Linear Gradient/Horizontal/Fuchsia */
+background: linear-gradient(90deg, #c026d3 0%, #701a75 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;

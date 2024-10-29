@@ -1,0 +1,1694 @@
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px;
+gap: 80px;
+
+width: 1440px;
+height: 698px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* Section Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 900px;
+height: 158px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Top */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 900px;
+height: 62px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Caption */
+
+display: none;
+width: 708px;
+height: 20px;
+
+/* Caption/M */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+/* identical to box height, or 20px */
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+
+/* Blue Gray/600 */
+color: #475569;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Main Headline */
+
+display: none;
+width: 435px;
+height: 79px;
+
+/* Heading/1 M */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 110%;
+/* or 79px */
+text-align: center;
+
+/* Linear Gradient/Horizontal/Fuchsia */
+background: linear-gradient(90deg, #c026d3 0%, #701a75 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Secondary Headline */
+
+width: 567px;
+height: 62px;
+
+/* Heading/2 */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 110%;
+/* identical to box height, or 62px */
+text-align: center;
+
+/* Linear Gradient/Horizontal/Fuchsia */
+background: linear-gradient(90deg, #c026d3 0%, #701a75 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Paragraph */
+
+width: 900px;
+height: 72px;
+
+/* Body/XL */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+/* or 36px */
+text-align: center;
+
+/* Blue Gray/600 */
+color: #475569;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Buttons Group */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 528px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1280px;
+height: 300px;
+overflow-x: scroll;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+
+width: 48px;
+height: 48px;
+
+/* White */
+background: #ffffff;
+opacity: 0.5;
+/* White */
+border: 2px solid #ffffff;
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* icon / jam-icons / outline & logos / plus */
+
+display: none;
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 120px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* icon / jam-icons / outline & logos / chevron-left */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 34.76%;
+right: 33.28%;
+top: 22.31%;
+bottom: 22.21%;
+
+/* Blue Gray/600 */
+background: #475569;
+
+/* Content Box */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 266px;
+height: 300px;
+
+/* White */
+background: #ffffff;
+/* Blue Gray/200 */
+border: 1px solid #e2e8f0;
+/* Shadow/Dark/M */
+box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 0px 4px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 266px;
+height: 220px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 266px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+display: none;
+width: 64px;
+height: 64px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Title + Category */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+display: none;
+width: 348px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 348px;
+height: 220px;
+
+background: url(Image-placeholder-empty);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Paragraph */
+
+display: none;
+width: 348px;
+height: 174px;
+
+/* Body/L */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* User-card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 234px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 48px;
+height: 48px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 178px;
+height: 42px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Category */
+
+width: 178px;
+height: 22px;
+
+/* Body/M */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Category */
+
+width: 178px;
+height: 20px;
+
+/* Body/S */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+/* Blue Gray/600 */
+color: #475569;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Buttons Group */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+display: none;
+width: 380px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 4px;
+
+position: absolute;
+width: 78px;
+height: 24px;
+left: 16px;
+top: 16px;
+
+/* Blue/100 */
+background: #dbeafe;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+/* icon / jam-icons / outline & logos / circle */
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 4px;
+gap: 10px;
+
+width: 70px;
+height: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Button Text */
+
+width: 62px;
+height: 20px;
+
+/* Body/S */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+/* Blue/800 */
+color: #1e40af;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* icon / iconoir / cancel */
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+display: none;
+width: 96px;
+height: 96px;
+left: calc(50% - 96px / 2);
+top: 172px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+/* Content Box */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 266px;
+height: 300px;
+
+/* White */
+background: #ffffff;
+/* Blue Gray/200 */
+border: 1px solid #e2e8f0;
+/* Shadow/Dark/M */
+box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 0px 4px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 266px;
+height: 220px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 266px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+display: none;
+width: 64px;
+height: 64px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Title + Category */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+display: none;
+width: 348px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 348px;
+height: 220px;
+
+background: url(Image-placeholder-empty);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Paragraph */
+
+display: none;
+width: 348px;
+height: 174px;
+
+/* Body/L */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* User-card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 234px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 48px;
+height: 48px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 178px;
+height: 42px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Category */
+
+width: 178px;
+height: 22px;
+
+/* Body/M */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Category */
+
+width: 178px;
+height: 20px;
+
+/* Body/S */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+/* Blue Gray/600 */
+color: #475569;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Buttons Group */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+display: none;
+width: 380px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 4px;
+
+position: absolute;
+display: none;
+width: 71px;
+height: 24px;
+left: 16px;
+top: 16px;
+
+/* Purple/100 */
+background: #f3e8ff;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+display: none;
+width: 96px;
+height: 96px;
+left: calc(50% - 96px / 2);
+top: 172px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+/* Content Box */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 266px;
+height: 300px;
+
+/* White */
+background: #ffffff;
+/* Blue Gray/200 */
+border: 1px solid #e2e8f0;
+/* Shadow/Dark/M */
+box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 0px 4px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 266px;
+height: 220px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 266px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+display: none;
+width: 64px;
+height: 64px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Title + Category */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+display: none;
+width: 348px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 348px;
+height: 220px;
+
+background: url(Image-placeholder-empty);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Paragraph */
+
+display: none;
+width: 348px;
+height: 174px;
+
+/* Body/L */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* User-card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 234px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 48px;
+height: 48px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 178px;
+height: 42px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Category */
+
+width: 178px;
+height: 22px;
+
+/* Body/M */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Category */
+
+width: 178px;
+height: 20px;
+
+/* Body/S */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+/* Blue Gray/600 */
+color: #475569;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Buttons Group */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+display: none;
+width: 380px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 4px;
+
+position: absolute;
+display: none;
+width: 71px;
+height: 24px;
+left: 16px;
+top: 16px;
+
+/* Purple/100 */
+background: #f3e8ff;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+display: none;
+width: 96px;
+height: 96px;
+left: calc(50% - 96px / 2);
+top: 172px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+/* Content Box */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 266px;
+height: 300px;
+
+/* White */
+background: #ffffff;
+/* Blue Gray/200 */
+border: 1px solid #e2e8f0;
+/* Shadow/Dark/M */
+box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 0px 4px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 266px;
+height: 220px;
+
+background: url(.jpg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 266px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+display: none;
+width: 64px;
+height: 64px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Title + Category */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+display: none;
+width: 348px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Picture */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+display: none;
+width: 348px;
+height: 220px;
+
+background: url(Image-placeholder-empty);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Paragraph */
+
+display: none;
+width: 348px;
+height: 174px;
+
+/* Body/L */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* User-card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 234px;
+height: 48px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 48px;
+height: 48px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Details */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 178px;
+height: 42px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Category */
+
+width: 178px;
+height: 22px;
+
+/* Body/M */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+/* Blue Gray/900 */
+color: #0f172a;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Category */
+
+width: 178px;
+height: 20px;
+
+/* Body/S */
+font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+/* Blue Gray/600 */
+color: #475569;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Buttons Group */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+display: none;
+width: 380px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 4px;
+
+position: absolute;
+display: none;
+width: 71px;
+height: 24px;
+left: 16px;
+top: 16px;
+
+/* Blue/100 */
+background: #dbeafe;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+/* User Thumb */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+display: none;
+width: 96px;
+height: 96px;
+left: calc(50% - 96px / 2);
+top: 172px;
+
+background: url();
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 12px;
+
+width: 48px;
+height: 48px;
+
+/* White */
+background: #ffffff;
+/* White */
+border: 2px solid #ffffff;
+/* Shadow/Dark/M */
+box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 0px 4px rgba(0, 0, 0, 0.07);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* icon / jam-icons / outline & logos / plus */
+
+display: none;
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+display: none;
+width: 120px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* icon / jam-icons / outline & logos / chevron-right */
+
+width: 24px;
+height: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 33.68%;
+right: 34.47%;
+top: 22.61%;
+bottom: 22.02%;
+
+/* Blue Gray/600 */
+background: #475569;
