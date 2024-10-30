@@ -34,7 +34,7 @@ export const StoriesSlier = () => {
     return (
         <div
             id="snapx"
-            className="flex max-w-full snap-x snap-proximity overflow-x-scroll"
+            className="  gap-6 flex max-w-full snap-x snap-proximity overflow-x-scroll"
         >
             {mockStories.map((story) => (
                 <StoriesCard

@@ -1,4 +1,3 @@
-import { MobileScreenIcon } from '@/icons/MobileScreenIcon';
 import { Button } from '@nextui-org/react';
 import React from 'react';
 import { MobilePng } from './MobilePng';

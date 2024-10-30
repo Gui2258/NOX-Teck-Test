@@ -16,14 +16,14 @@ export const StoriesCard: React.FunctionComponent<Props> = ({
     name,
 }) => {
     return (
-        <div className="m-10 w-52 snap-center border">
+        <div id='Cards' className="w-[320px] flex flex-col shrink-0  ">
             <Image
                 src={`/assets/${imgage}`}
                 alt="Imagen del usuario  "
-                width={350}
-                height={750}
+                width={320}
+                height={220}
             />
-            <div>
+            <div className='flex  shrink-0 h-[80px]'>
                 <User
                     name={name}
                     description={description}
