@@ -28,8 +28,8 @@ export const Main: React.FunctionComponent = () => {
                         Start now
                     </Button>
                 </div>
-
-                <div>
+                <div className='mt-2 shadow-[12px 12px 0px 0px #0F172A;
+]'>
                     <Image
                         src={'/assets/mainImage.png'}
                         width={361}
