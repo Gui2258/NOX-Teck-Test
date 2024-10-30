@@ -6,8 +6,8 @@ import React from 'react';
 export const NavBarMain: React.FunctionComponent = () => {
     return (
         <>
-            <nav className="font flex w-full justify-between bg-white p-5 text-3xl">
-                <div className={`h-20 text-black ${roboto.className}`}>
+            <nav className=" h-20 flex w-full justify-between items-center bg-white p-4 text-[35px]">
+                <div className={` text-black ${roboto.className}`}>
                     brak<span className="text-rosf">io</span>
                 </div>
                 <Button variant="light" isIconOnly aria-label="Like">

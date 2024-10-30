@@ -6,7 +6,7 @@ import React from 'react';
 export const Main: React.FunctionComponent = () => {
     return (
         <>
-            <main className="flex flex-col items-center justify-center bg-white">
+            <main className="px-4 py-12 flex flex-col items-center justify-center bg-white">
                 <h1 className={`gradientText text-3xl ${roboto.className}`}>
                     It’s time to take a break
                 </h1>
