@@ -20,9 +20,36 @@ const config: Config = {
                 'custom-gradient':
                     'linear-gradient(to right, #4F46E5, #86198F)',
             },
+            gradientColor: {
+                'custom-gradient':
+                    'linear-gradient(to right, #86198F, rgb(134 25 143))',
+            },
         },
     },
     darkMode: 'class',
-    plugins: [nextui()],
+    plugins: [
+        nextui({
+            themes: {
+                dark: {
+                    colors: {
+                        primary: {
+                            DEFAULT: '#C026D3',
+                            foreground: '#000000',
+                        },
+                        focus: '#BEF264',
+                    },
+                },
+                light: {
+                    colors: {
+                        primary: {
+                            DEFAULT: '#C026D3',
+                            foreground: '#000000',
+                        },
+                        focus: '#BEF264',
+                    },
+                },
+            },
+        }),
+    ],
 };
 export default config;
