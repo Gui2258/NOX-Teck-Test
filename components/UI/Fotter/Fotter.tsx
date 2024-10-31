@@ -1,5 +1,6 @@
 import React from 'react'
 import { FotterItem } from './FotterItem'
+import { Social } from './Social'
 
 export const Fotter = () => {
 
@@ -31,7 +32,7 @@ export const Fotter = () => {
                 ))}
             </div>
 
-
+            <Social />
         </footer >
     )
 }
