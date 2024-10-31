@@ -2,6 +2,7 @@
 import { Better } from '@/components/UI/BetterSection/Better';
 import { FAQ } from '@/components/UI/FAQ/FAQ';
 import { FavoritesTool } from '@/components/UI/FavoriteToolsSection/FavoritesTool';
+import { Fotter } from '@/components/UI/Fotter/Fotter';
 import { Main } from '@/components/UI/Main/Main';
 import { NavBarMain } from '@/components/UI/Navbar/NavBarMain';
 import { StoriesMain } from '@/components/UI/StoriesSection/StoriesMain';
@@ -18,6 +19,7 @@ export default function Home() {
                 <Testimonials />
                 <FavoritesTool />
                 <FAQ />
+                <Fotter />
             </div>
         </>
     );
