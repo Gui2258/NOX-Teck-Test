@@ -25,6 +25,10 @@ const config: Config = {
                 'custom-gradient':
                     'linear-gradient(to right, #86198F, rgb(134 25 143))',
             },
+            boxShadow: {
+                '3xl': '0px 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                '4xl': '0px 0px 6px 0px rgba(0, 0, 0, 0.07)',
+            },
         },
     },
     darkMode: 'class',
