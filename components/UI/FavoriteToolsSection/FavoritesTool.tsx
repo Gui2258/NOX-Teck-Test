@@ -1,5 +1,4 @@
 import React from 'react';
-import { roboto } from '@/app/layout';
 import { DashboardIcon } from '@/icons/DashboardIcon';
 import { FinderIcon } from '@/icons/FInderIcon';
 import { FlagIcon } from '@/icons/FlagIcon';
@@ -55,11 +54,11 @@ const tools = [
 
 export const FavoritesTool = () => {
     return (
-        <div className="flex flex-col items-center">
-            <h1 className={`gradientText mt-10 text-xl ${roboto.className}`}>
+        <div className="flex flex-col items-center gap-[32px] px-[16px] py-[32px]">
+            <h1 className={`gradientText font-bold text-[24px] `}>
                 Your Favorite Tools
             </h1>
-            <p className="text-sm">
+            <p className="text-[16px] text-[#475569] text-center">
                 In risus nec molestie at in pulvinar tellus. At integer id
                 condimentum gravida nisi nisl. Sem vitae porttitor arcu congue
                 sem erat et sit faucibus. Sollicitudin elit gravida tellus
