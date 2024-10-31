@@ -1,38 +1,43 @@
-import React from 'react'
-import { FotterItem } from './FotterItem'
-import { Social } from './Social'
+import React from 'react';
+import { FotterItem } from './FotterItem';
+import { Social } from './Social';
+import { Divider } from '@nextui-org/react';
 
 export const Fotter = () => {
-
-
     const foterElements = [
         {
             title: 'Company',
-            links: ['About', 'Careers', 'Partners', 'Blog']
+            links: ['About', 'Careers', 'Partners', 'Blog'],
         },
         {
             title: 'Support',
-            links: ['Help Center', 'Safety Center', 'Community Guidelines']
+            links: ['Help Center', 'Safety Center', 'Community Guidelines'],
         },
         {
             title: 'Legal',
-            links: ['Cookies Policy', 'Privacy Policy', 'Terms of Service']
+            links: ['Cookies Policy', 'Privacy Policy', 'Terms of Service'],
         },
         {
             title: 'Install App',
-            links: ['Android App', 'IOS App']
+            links: ['Android App', 'IOS App'],
         },
-    ]
+    ];
 
     return (
-        <footer className='px-[16px] w-full'>
-            <div className='py-[24px] gap-[24px]'>
+        <footer className="w-full px-[16px]">
+            <div className="gap-[24px] py-[24px]">
                 {foterElements.map((element, index) => (
-                    <FotterItem title={element.title} links={element.links} key={index} />
+                    <FotterItem
+                        title={element.title}
+                        links={element.links}
+                        key={index}
+                    />
                 ))}
             </div>
 
+            <Divider className="my-4" />
+
             <Social />
-        </footer >
-    )
-}
+        </footer>
+    );
+};
