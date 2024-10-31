@@ -24,7 +24,7 @@ export const Testimonials = () => {
             {/* Contenido del componente */}
             <div className="relative z-10 gap-[32px] flex w-full flex-col items-center justify-center">
                 <h1
-                    className={`gradientText font-bold text-[24px] `}
+                    className={`gradientText font-bold text-[24px] md:text-[56px] `}
                 >
                     What other users say
                 </h1>
