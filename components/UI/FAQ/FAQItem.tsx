@@ -8,7 +8,7 @@ interface Props {
 
 export const FAQItem: React.FC<Props> = ({ question }) => {
     return (
-        <div className='flex justify-around p-[16px] shadow-3xl '>
+        <div className='flex justify-around p-[16px] w-full shadow-3xl '>
             <div className=' gap-[16px]'></div>
 
             <p className='font-medium text-[16px] text-[#0F172A]'>{question}</p>
