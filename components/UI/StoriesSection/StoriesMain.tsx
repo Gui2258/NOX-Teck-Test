@@ -1,12 +1,9 @@
 import React from 'react';
 import { StoriesSlier } from './StoriesSlier';
-import { serverFetcher } from '@/components/Utils/Fetcher';
-import { UsersResponse } from '@/components/types';
+import { getStories } from '@/components/Utils/Fetcher';
 
 export const StoriesMain = () => {
-    const stories = serverFetcher<UsersResponse>(
-        'https://jsonplaceholder.typicode.com/posts'
-    );
+    const stories = getStories()
 
     return (
         <div className="flex w-full flex-col justify-center gap-8 px-[16px] py-[48px]">
