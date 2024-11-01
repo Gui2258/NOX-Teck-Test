@@ -9,7 +9,7 @@ export const FotterItem: React.FC<Props> = ({ title, links }) => {
     return (
         <div>
             <div className='py-[12px] gap-[8px]'>
-                <p className='font-medium text-[16] text-[#475569]'>{title}</p>
+                <p className='font-medium text-[16px] text-[#475569]'>{title}</p>
             </div>
 
             {links.map((link, index) => (

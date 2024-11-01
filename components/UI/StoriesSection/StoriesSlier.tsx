@@ -32,11 +32,11 @@ const mockStories: StoryCard[] = [
 ];
 
 interface StoriesCardProps {
-    stories: Promise<UsersResponse>;
+    stories?: Promise<UsersResponse>;
 }
 
-export const StoriesSlier: React.FC<StoriesCardProps> = async ({ stories }) => {
-    const storiesData = await stories;
+export const StoriesSlier: React.FC<StoriesCardProps> = async () => {
+    // const storiesData = await stories;
 
     return (
         <div

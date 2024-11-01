@@ -21,11 +21,19 @@ export const Fotter = () => {
             title: 'Install App',
             links: ['Android App', 'IOS App'],
         },
+        {
+            title: 'Legal',
+            links: ['Cookies Policy', 'Privacy Policy', 'Terms of Service'],
+        },
+        {
+            title: 'Install App',
+            links: ['Android App', 'IOS App'],
+        },
     ];
 
     return (
-        <footer className="w-full px-[16px]">
-            <div className="gap-[24px] py-[24px]">
+        <footer className="w-full px-[16px] md:px-[80px]">
+            <div className="gap-[24px] py-[24px grid grid-cols-1 md:grid-cols-6">
                 {foterElements.map((element, index) => (
                     <FotterItem
                         title={element.title}

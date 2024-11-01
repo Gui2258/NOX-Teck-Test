@@ -23,7 +23,7 @@ export const FAQ = () => {
     ]
 
     return (
-        <div className="flex flex-col w-full items-center gap-[32px] px-[16px] py-[32px] bg-[#F1F5F9]">
+        <div className="flex flex-col w-full items-center gap-[32px] px-[16px] py-[32px] bg-[#F1F5F9] md:p-[80px]">
             <div className='flex flex-col md:max-w-[900px] items-center'>
 
                 <h1 className={`gradientText font-bold text-[24px] md:text-[56px] `}>

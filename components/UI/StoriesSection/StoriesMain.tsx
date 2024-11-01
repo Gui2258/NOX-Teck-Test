@@ -1,9 +1,7 @@
 import React from 'react';
 import { StoriesSlier } from './StoriesSlier';
-import { getStories } from '@/components/Utils/Fetcher';
 
 export const StoriesMain = () => {
-    const stories = getStories()
 
     return (
         <div className="flex w-full flex-col justify-center items-center gap-8 px-[16px] py-[48px]">
@@ -18,7 +16,7 @@ export const StoriesMain = () => {
                     porttitor pharetra sed in mauris elementum sollicitudin.
                 </p>
             </div>
-            <StoriesSlier stories={stories} />
+            <StoriesSlier />
         </div>
     );
 };
