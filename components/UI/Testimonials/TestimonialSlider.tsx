@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react';
 import { UsersResponse } from '../../types';
 import { Button } from '@nextui-org/react';
 import { Card, Skeleton } from '@nextui-org/react';
+import { TestimonialCard } from './TestimonialCard';
+import { LeftArrow } from '@/icons/LeftArrow';
+import { RightArrow } from '@/icons/RightArrow';
 
 interface TestimonialSliderProps {
     testimonials: Promise<UsersResponse[]>;
@@ -71,8 +74,16 @@ export const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonia
     }
 
     return (
-        <div className="relative w-full max-w-[600px]">
-            <Card className="p-6">
+        <div className="relative gap-4 flex items-center  w-full max-w-[600px]">
+            <Button
+                isIconOnly
+                onClick={handlePrevious}
+                className="bg-white shadow-lg rounded-full"
+            >
+                <LeftArrow disabled={false} />
+            </Button>
+            <TestimonialCard data={data[currentIndex]} />
+            {/* <Card className="p-6">
                 {data.length > 0 && (
                     <div className="space-y-4">
                         <h3 className="text-xl font-bold">{data[currentIndex].title}</h3>
@@ -80,24 +91,19 @@ export const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonia
                         <p className="text-sm text-gray-500">User ID: {data[currentIndex].userId}</p>
                     </div>
                 )}
-            </Card>
+            </Card> */}
 
             <div className="absolute top-1/2 -translate-y-1/2 w-full flex justify-between px-4">
-                <Button
-                    isIconOnly
-                    onClick={handlePrevious}
-                    className="bg-white shadow-lg rounded-full"
-                >
-                    ←
-                </Button>
-                <Button
-                    isIconOnly
-                    onClick={handleNext}
-                    className="bg-white shadow-lg rounded-full"
-                >
-                    →
-                </Button>
+
             </div>
+            <Button
+
+                isIconOnly
+                onClick={handleNext}
+                className="bg-white shadow-lg rounded-full"
+            >
+                <RightArrow disabled />
+            </Button>
         </div>
     );
 };
