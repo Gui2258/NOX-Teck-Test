@@ -1,11 +1,13 @@
 import React from 'react';
-import { TestimonialCard } from './TestimonialCard';
 import { DecoRigthBorder } from '@/icons/DecoRIgthBorder';
 import { DecoRigthSolid } from '@/icons/DecoRigthSolid';
 import { DecoLeftSolid } from '@/icons/DecoLeftSolid';
 import { DecoLeftBorder } from '@/icons/DecoLeftBorder';
+import { TestimonialSlider } from './TestimonialSlider';
+import { getStories } from '@/components/Utils/Fetcher';
 
 export const Testimonials = () => {
+    const testimonials = getStories()
     return (
         <div id="test" className="relative gap-[32px] px-[16px] py-[48px]  w-full bg-[#FDF4FF]">
             <div className="absolute right-0 top-0 z-10">
@@ -28,7 +30,8 @@ export const Testimonials = () => {
                 >
                     What other users say
                 </h1>
-                <TestimonialCard />
+                <TestimonialSlider testimonials={testimonials} />
+                {/* <TestimonialCard /> */}
             </div>
         </div>
     );
