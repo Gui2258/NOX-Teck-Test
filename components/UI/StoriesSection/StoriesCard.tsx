@@ -15,11 +15,12 @@ export const StoriesCard: React.FunctionComponent<Props> = ({
     description,
     imgage,
     name,
-    id
+
+    avatarProps,
 
 }) => {
     return (
-        <div id='Cards' className="w-[320px] flex flex-col shrink-0  ">
+        <div id='Cards' className="w-[320px] flex flex-col shrink-0  shadow-[0px_0px_4px_0px_rgba(0,0,0,0.07),0px_4px_16px_rgba(0,0,0,0.1)] mb-2 p-4">
             <Image
                 src={`/assets/${imgage}`}
                 alt="Imagen del usuario  "
@@ -31,7 +32,7 @@ export const StoriesCard: React.FunctionComponent<Props> = ({
                     name={name}
                     description={description}
                     avatarProps={{
-                        src: `https://i.pravatar.cc/?img=${id + 5}`,
+                        src: `/assets/${avatarProps?.src}`,
                         //src: avatarProps.src,
                     }}
                 />
@@ -39,3 +40,7 @@ export const StoriesCard: React.FunctionComponent<Props> = ({
         </div>
     );
 };
+
+
+
+

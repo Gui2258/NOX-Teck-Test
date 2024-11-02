@@ -6,6 +6,7 @@ interface StoryCard {
     title: string;
     image: string;
     description: string;
+    avatar: string;
 }
 
 const mockStories: StoryCard[] = [
@@ -14,24 +15,30 @@ const mockStories: StoryCard[] = [
         title: 'Story 1',
         image: 'story1.jpg',
         description: 'Description 1',
+        avatar: "avatar1.png",
     },
     {
         id: 2,
         title: 'Story 2',
         image: 'story2.jpg',
         description: 'Description 2',
+        avatar: "avatar2.png",
+
     },
     {
         id: 3,
         title: 'Story 3',
         image: 'story3.jpg',
         description: 'Description 3',
+        avatar: "avatar3.png",
     },
     {
         id: 4,
         title: 'Story 4',
         image: 'story5.png',
         description: 'Description 3',
+        avatar: "avatar4.png",
+
     },
     // Add more stories as needed
 ];
@@ -44,7 +51,7 @@ export const StoriesSlier: React.FC = async () => {
     return (
         <div
             id="snapx"
-            className="flex max-w-full snap-x snap-proximity gap-6 overflow-x-scroll"
+            className="flex max-w-full snap-x snap-proximity gap-6 overflow-x-scroll "
         >
             {mockStories.map((story) => (
                 <StoriesCard
@@ -53,6 +60,9 @@ export const StoriesSlier: React.FC = async () => {
                     description={story.description}
                     imgage={story.image}
                     id={story.id}
+                    avatarProps={{
+                        src: story.avatar,
+                    }}
                 />
             ))}
         </div>
