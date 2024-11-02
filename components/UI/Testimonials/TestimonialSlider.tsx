@@ -10,6 +10,7 @@ import { getStories } from '@/components/Utils/Fetcher';
 
 export const TestimonialSlider: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [slideDirection, setSlideDirection] = useState<'slide-left' | 'slide-right' | ''>('');
     const [data, setData] = useState<TestimonialsResponse[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<boolean>(false);
@@ -30,11 +31,19 @@ export const TestimonialSlider: React.FC = () => {
     }, []);
 
     const handleNext = () => {
-        setCurrentIndex((prev) => (prev + 1) % data.length);
+        setSlideDirection('slide-right');
+        setTimeout(() => {
+            setCurrentIndex((prev) => (prev + 1) % data.length);
+            setSlideDirection('');
+        }, 300);
     };
 
     const handlePrevious = () => {
-        setCurrentIndex((prev) => (prev - 1 + data.length) % data.length);
+        setSlideDirection('slide-left');
+        setTimeout(() => {
+            setCurrentIndex((prev) => (prev - 1 + data.length) % data.length);
+            setSlideDirection('');
+        }, 300);
     };
 
     if (loading) {
@@ -71,9 +80,7 @@ export const TestimonialSlider: React.FC = () => {
     }
 
     return (
-        // Add this CSS class to the TestimonialCard wrapper div
-        //<div className="relative gap-4 flex items-center w-full max-w-[600px] transition-opacity duration-300 ease-in-out">
-        <div className="relative gap-4 flex items-center w-full max-w-[600px] min-h-[500px] md:min-h-[600px] ">
+        <div className="relative gap-4 flex items-center w-full max-w-[600px] min-h-[500px] md:min-h-[600px]">
             <Button
                 isIconOnly
                 onClick={handlePrevious}
@@ -81,8 +88,13 @@ export const TestimonialSlider: React.FC = () => {
             >
                 <LeftArrow />
             </Button>
-            <div className=" w-full min-h-[200px]">
-                <TestimonialCard data={data[currentIndex]} />
+            <div className="w-full min-h-[200px] overflow-hidden">
+                <div className={`transition-all duration-300 ease-in-out
+                    ${slideDirection === 'slide-left' ? '-translate-x-full' :
+                        slideDirection === 'slide-right' ? 'translate-x-full' : 'translate-x-0'}`}
+                >
+                    <TestimonialCard data={data[currentIndex]} />
+                </div>
             </div>
             <Button
                 isIconOnly
