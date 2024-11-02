@@ -80,7 +80,7 @@ export const TestimonialSlider: React.FC = () => {
     }
 
     return (
-        <div className="relative gap-4 flex items-center w-full max-w-[600px] min-h-[500px] md:min-h-[600px]">
+        <div className="relative gap-4 flex items-center w-full max-w-[756px] min-h-[500px] md:min-h-[600px]">
             <Button
                 isIconOnly
                 onClick={handlePrevious}
