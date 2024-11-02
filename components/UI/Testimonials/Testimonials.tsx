@@ -1,9 +1,9 @@
 import React from 'react';
-import { TestimonialCard } from './TestimonialCard';
 import { DecoRigthBorder } from '@/icons/DecoRIgthBorder';
 import { DecoRigthSolid } from '@/icons/DecoRigthSolid';
 import { DecoLeftSolid } from '@/icons/DecoLeftSolid';
 import { DecoLeftBorder } from '@/icons/DecoLeftBorder';
+import { TestimonialSlider } from './TestimonialSlider';
 
 export const Testimonials = () => {
     return (
@@ -28,7 +28,8 @@ export const Testimonials = () => {
                 >
                     What other users say
                 </h1>
-                <TestimonialCard />
+                <TestimonialSlider />
+                {/* <TestimonialCard /> */}
             </div>
         </div>
     );
