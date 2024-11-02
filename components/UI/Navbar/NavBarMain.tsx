@@ -22,7 +22,7 @@ export const NavBarMain: React.FunctionComponent = () => {
                     <div className='font-medium text-[16px] px-[8px] py-[12px] leading-6'>About</div>
                     <div className='font-medium text-[16px] px-[8px] py-[12px] leading-6'>Blog</div>
                     <div className='font-medium text-[16px] px-[8px] py-[12px] leading-6'>Log in</div>
-                    <Button className="text-white font-medium h-[48px] max-w-[132px] px-[16px] rounded-2xl  md:text-[16px]" color="primary" style={{ width: 132, borderRadius: 18 }}>
+                    <Button className="text-white font-medium h-[48px] max-w-[132px] px-[16px] border-none  md:text-[16px]" color="primary" variant='solid' style={{ width: 132, borderRadius: 18 }}>
                         Start now
                     </Button>
                 </div>

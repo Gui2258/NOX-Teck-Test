@@ -9,11 +9,14 @@ interface Props {
     avatarProps?: {
         src: string;
     };
+    id: number
 }
 export const StoriesCard: React.FunctionComponent<Props> = ({
     description,
     imgage,
     name,
+    id
+
 }) => {
     return (
         <div id='Cards' className="w-[320px] flex flex-col shrink-0  ">
@@ -28,7 +31,7 @@ export const StoriesCard: React.FunctionComponent<Props> = ({
                     name={name}
                     description={description}
                     avatarProps={{
-                        src: 'https://i.pravatar.cc/150?u=a04258114e29026702d',
+                        src: `https://i.pravatar.cc/?img=${id + 5}`,
                         //src: avatarProps.src,
                     }}
                 />

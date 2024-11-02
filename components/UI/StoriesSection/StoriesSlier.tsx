@@ -1,6 +1,5 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { StoriesCard } from './StoriesCard';
-import { TestimonialsResponse } from '@/components/types';
 
 interface StoryCard {
     id: number;
@@ -28,14 +27,18 @@ const mockStories: StoryCard[] = [
         image: 'story3.jpg',
         description: 'Description 3',
     },
+    {
+        id: 4,
+        title: 'Story 4',
+        image: 'story5.png',
+        description: 'Description 3',
+    },
     // Add more stories as needed
 ];
 
-interface StoriesCardProps {
-    stories?: Promise<TestimonialsResponse>;
-}
 
-export const StoriesSlier: React.FC<StoriesCardProps> = async () => {
+
+export const StoriesSlier: React.FC = async () => {
     // const storiesData = await stories;
 
     return (
@@ -43,16 +46,15 @@ export const StoriesSlier: React.FC<StoriesCardProps> = async () => {
             id="snapx"
             className="flex max-w-full snap-x snap-proximity gap-6 overflow-x-scroll"
         >
-            <Suspense fallback={<div>Loading...</div>}>
-                {mockStories.map((story) => (
-                    <StoriesCard
-                        key={story.id}
-                        name={story.title}
-                        description={story.description}
-                        imgage={story.image}
-                    />
-                ))}
-            </Suspense>
+            {mockStories.map((story) => (
+                <StoriesCard
+                    key={story.id}
+                    name={story.title}
+                    description={story.description}
+                    imgage={story.image}
+                    id={story.id}
+                />
+            ))}
         </div>
     );
 };

@@ -23,7 +23,7 @@ export const FAQItem: React.FC<Props> = ({ question, answer }) => {
             </div>
 
             {isOpen && (
-                <div className='p-[16px] bg-gray-50'>
+                <div className='p-[16px]  rounded-sm'>
                     <p className='text-[14px] md:text-[16px] text-gray-600'>
                         {answer}
                     </p>
