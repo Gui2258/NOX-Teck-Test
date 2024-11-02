@@ -6,12 +6,9 @@ import { Card, Skeleton } from '@nextui-org/react';
 import { TestimonialCard } from './TestimonialCard';
 import { LeftArrow } from '@/icons/LeftArrow';
 import { RightArrow } from '@/icons/RightArrow';
+import { getStories } from '@/components/Utils/Fetcher';
 
-interface TestimonialSliderProps {
-    testimonials: Promise<UsersResponse[]>;
-}
-
-export const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) => {
+export const TestimonialSlider: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [data, setData] = useState<UsersResponse[]>([]);
     const [loading, setLoading] = useState(true);
@@ -20,7 +17,7 @@ export const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonia
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const result = await testimonials;
+                const result = await getStories();
                 setData(result);
                 setLoading(false);
             } catch (error) {
@@ -30,7 +27,7 @@ export const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonia
             }
         };
         fetchData();
-    }, [testimonials]);
+    }, []);
 
     const handleNext = () => {
         setCurrentIndex((prev) => (prev + 1) % data.length);
