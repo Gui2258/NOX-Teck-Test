@@ -6,28 +6,28 @@ import { Divider } from '@nextui-org/react';
 export const Fotter = () => {
     const foterElements = [
         {
+            title: 'Categories',
+            links: ['User Interfaces', 'User Experiencie', 'Digital Media', 'Lifestyle', "Programming", "Animation"],
+        },
+        {
+            title: 'Proudct',
+            links: ['Pricing', 'Overview', 'Browse', "Accessibility", "Five", "Changelog"],
+        },
+        {
+            title: 'Solutions',
+            links: ['Brainstorming', 'Ideation', 'Wirefarming', "Research", "Design", "Concept"],
+        },
+        {
+            title: 'Resources',
+            links: ['Help Center', 'Blog', 'Tutorials', "FAQs", "Community", "Events"],
+        },
+        {
+            title: 'Suport',
+            links: ['Contact Us', 'Developers', 'Documentatio', "Integrations", "Reports", "Webinar"],
+        },
+        {
             title: 'Company',
-            links: ['About', 'Careers', 'Partners', 'Blog'],
-        },
-        {
-            title: 'Support',
-            links: ['Help Center', 'Safety Center', 'Community Guidelines'],
-        },
-        {
-            title: 'Legal',
-            links: ['Cookies Policy', 'Privacy Policy', 'Terms of Service'],
-        },
-        {
-            title: 'Install App',
-            links: ['Android App', 'IOS App'],
-        },
-        {
-            title: 'Legal',
-            links: ['Cookies Policy', 'Privacy Policy', 'Terms of Service'],
-        },
-        {
-            title: 'Install App',
-            links: ['Android App', 'IOS App'],
+            links: ['About', 'Press', "Events", "Carrers", "Customers", "Partners"],
         },
     ];
 

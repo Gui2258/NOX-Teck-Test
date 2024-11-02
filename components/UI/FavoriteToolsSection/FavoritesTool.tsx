@@ -12,47 +12,47 @@ import { LockIcon } from '@/icons/LockIcon';
 
 const tools = [
     {
-        icon: <FinderIcon />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
-    },
-    {
-        icon: <DashboardIcon />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
-    },
-    {
-        icon: <FlagIcon />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
-    },
-    {
-        icon: <GearIcon />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
-    },
-    {
         icon: <MailIcon />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+        title: 'Sapien amet est',
+        desc: 'Viverra netus odio nunc ac nibh lorem iaculis. Orci facilisis habitasse cursus tempor et.',
     },
     {
         icon: <MapIcon />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+        title: 'Tortor ornare',
+        desc: 'Nulla etiam mattis amet suspendisse lacus nulla sed urna ultricies.',
     },
     {
-        icon: <MarkDown />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
-    },
-    {
-        icon: <PigIcon />,
-        title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+        icon: <GearIcon />,
+        title: 'Vel lacus',
+        desc: 'Porttitor quis lectus varius quis dolor morbi massa pellentesque.',
     },
     {
         icon: <LockIcon />,
+        title: 'Sed aliquam lectus',
+        desc: 'A aliquam pharetra in nec vitae ultrices commodo placerat eget.',
+    },
+    {
+        icon: <DashboardIcon />,
+        title: 'Enim risus turpis',
+        desc: 'Tristique dui vestibulum senectus ac duis etiam adipiscing sapien.',
+    },
+    {
+        icon: <MarkDown />,
+        title: 'Aliquam lorem et',
+        desc: 'Suspendisse ultrices morbi iaculis sit lorem. Mauris nulla odio est a mi a sed gravida.',
+    },
+    {
+        icon: <PigIcon />,
+        title: 'Sed aliquam lectus',
+        desc: 'Rhoncus ut montes quis eget vulputate. Id hac consectetur ornare neque.',
+    },
+    {
+        icon: <FlagIcon />,
+        title: 'Cursus diam',
+        desc: 'Feugiat consectetur eu commodo odio venenatis pretium libero. Volutpat ultricies nisl turpis id.',
+    },
+    {
+        icon: <FinderIcon />,
         title: 'Facilisi vel malesuada',
         desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
     },
