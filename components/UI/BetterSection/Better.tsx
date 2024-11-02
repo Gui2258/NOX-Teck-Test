@@ -36,7 +36,7 @@ export const Better = () => {
             <div className='hidden md:block'>
                 <DeskPng />
             </div>
-            <div className='md:hidden'>
+            <div className='md:hidden p-5'>
                 <MobilePng />
             </div>
         </>

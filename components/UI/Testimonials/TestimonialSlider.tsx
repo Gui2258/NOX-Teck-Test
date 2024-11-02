@@ -84,13 +84,13 @@ export const TestimonialSlider: React.FC = () => {
             <Button
                 isIconOnly
                 onClick={handlePrevious}
-                className="bg-white shadow-lg rounded-full z-10 min-w-[48px] min-h-[48px]"
+                className="bg-white shadow-lg rounded-full z-10 min-w-[48px] md:min-w-[48px] md:min-h-[48px] hidden sm:flex"
             >
                 <LeftArrow />
             </Button>
             <div className="shadow-lg w-full min-h-[200px] overflow-hidden">
                 <div className={`transition-all duration-300 ease-in-out
-                    ${slideDirection === 'slide-left' ? '-translate-x-full' :
+            ${slideDirection === 'slide-left' ? '-translate-x-full' :
                         slideDirection === 'slide-right' ? 'translate-x-full' : 'translate-x-0'}`}
                 >
                     <TestimonialCard data={data[currentIndex]} />
@@ -99,10 +99,28 @@ export const TestimonialSlider: React.FC = () => {
             <Button
                 isIconOnly
                 onClick={handleNext}
-                className="bg-white shadow-lg rounded-full z-10 min-w-[48px] min-h-[48px]"
+                className="bg-white shadow-lg rounded-full z-10 min-w-[48px] min-h-[48px] hidden sm:flex"
             >
                 <RightArrow />
             </Button>
+
+            {/* Mobile navigation buttons */}
+            <div className="absolute bottom-[-50px] pb-7 left-0 right-0 flex justify-center gap-4 sm:hidden">
+                <Button
+                    isIconOnly
+                    onClick={handlePrevious}
+                    className="bg-white shadow-lg rounded-full z-10 min-w-[40px] min-h-[40px]"
+                >
+                    <LeftArrow />
+                </Button>
+                <Button
+                    isIconOnly
+                    onClick={handleNext}
+                    className="bg-white shadow-lg rounded-full z-10 min-w-[40px] min-h-[40px]"
+                >
+                    <RightArrow />
+                </Button>
+            </div>
         </div>
     );
 };
