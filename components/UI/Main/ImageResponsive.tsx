@@ -24,13 +24,13 @@ export const ImageResponsive = () => {
     const imageHeigth = windowWidth >= 768 ? 465 : 222; // 768px es el breakpoint md
     const src = windowWidth >= 768 ? '/assets/mainImageW.png' : '/assets/mainImage.png'; // 768px es el breakpoint md
     return (
-        <div className='mt-2 shadow-[12px 12px 0px 0px #0F172A;
-    ]'>
+        <div className='mt-2   '>
             <Image
                 src={src}
                 width={imageWidth}
                 height={imageHeigth}
                 alt="Customer Photo"
+                className='rounded-[20px]  border-2 shadow-[12px_12px_0px_0px_rgba(15,23,42,1)]'
             />
         </div>
     )
