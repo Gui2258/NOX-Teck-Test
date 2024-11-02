@@ -2,6 +2,7 @@ import { User, Skeleton } from '@nextui-org/react';
 import React, { useEffect, useState } from 'react';
 import { getUser } from '../../Utils/Fetcher';
 import { UsersResponse } from '../../types';
+import Link from 'next/link';
 
 interface ITestimonalsUserProps {
     id: number
@@ -61,7 +62,14 @@ export const TestimonalsUser: React.FunctionComponent<ITestimonalsUserProps> = (
                     {userData?.name}
                 </h4>}
                 description=
-                {userData?.company.name}
+                {userData?.website ?
+                    <Link href={`https://${userData?.website}`} >
+                        {userData?.company.name}
+                    </Link>
+                    :
+                    userData?.company.name
+
+                }
 
                 avatarProps={{
                     className: "md:h-[64px] md:w-[64px] h-[48px] w-[48px] rounded-full",
