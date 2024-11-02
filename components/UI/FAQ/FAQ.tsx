@@ -30,10 +30,10 @@ export const FAQ = () => {
 
     return (
         <div className="flex flex-col w-full items-center gap-[32px] px-[16px] py-[32px] bg-[#F1F5F9] md:p-[80px]">
-            <div className='flex flex-col md:max-w-[900px] items-center'>
+            <div className='flex flex-col md:max-w-[900px] gap-[24px] items-center'>
 
                 <h1 className={`gradientText font-bold text-[24px] md:text-[56px] `}>
-                    Your Favorite Tools
+                    Frequently asked questions
                 </h1>
                 <p className="text-[16px] text-[#475569] text-center md:text-[20px]">
                     In risus nec molestie at in pulvinar tellus. At integer id

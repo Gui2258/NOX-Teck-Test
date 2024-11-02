@@ -74,7 +74,7 @@ export const FavoritesTool = () => {
                     </p>
                 </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px]'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px] mb-4'>
                 {tools.map((tool, index) => (
                     <ToolCard
                         icon={tool.icon}
