@@ -88,7 +88,7 @@ export const TestimonialSlider: React.FC = () => {
             >
                 <LeftArrow />
             </Button>
-            <div className="w-full min-h-[200px] overflow-hidden">
+            <div className="shadow-lg w-full min-h-[200px] overflow-hidden">
                 <div className={`transition-all duration-300 ease-in-out
                     ${slideDirection === 'slide-left' ? '-translate-x-full' :
                         slideDirection === 'slide-right' ? 'translate-x-full' : 'translate-x-0'}`}

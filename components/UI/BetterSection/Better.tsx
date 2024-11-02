@@ -7,7 +7,7 @@ export const Better = () => {
     return (
         <div className="flex w-full gap-[32px] flex-col py-[48px] px-[16px] items-center justify-center md:max-w-[900px]">
             <h1 className="gradientText text-[24px] font-bold md:text-[56px]">Get better everyday</h1>
-            <p className="text-center text-grayText text-[16] md:text-[20px]">
+            <p className="text-center text-grayText text-[16] md:text-[20px] leading-9">
                 Et pulvinar nec interdum integer id urna molestie porta nullam.
                 A, donec ornare sed turpis pulvinar purus maecenas quam a. Erat
                 porttitor pharetra sed in mauris elementum sollicitudin.

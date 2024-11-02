@@ -26,7 +26,7 @@ export const ImageResponsive = () => {
     return (
         <div className='mt-2   '>
             <Image
-                src={src}
+                src={'/assets/mainImage.png'}
                 width={imageWidth}
                 height={imageHeigth}
                 alt="Customer Photo"
