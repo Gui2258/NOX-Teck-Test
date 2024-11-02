@@ -22,7 +22,6 @@ export const ImageResponsive = () => {
     // Ajustar el ancho de la imagen según el tamaño de la pantalla
     const imageWidth = windowWidth >= 768 ? 1280 : 361; // 768px es el breakpoint md
     const imageHeigth = windowWidth >= 768 ? 465 : 222; // 768px es el breakpoint md
-    const src = windowWidth >= 768 ? '/assets/mainImageW.png' : '/assets/mainImage.png'; // 768px es el breakpoint md
     return (
         <div className='mt-2   '>
             <Image
