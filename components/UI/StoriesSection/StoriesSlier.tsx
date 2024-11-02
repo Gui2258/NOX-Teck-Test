@@ -12,32 +12,32 @@ interface StoryCard {
 const mockStories: StoryCard[] = [
     {
         id: 1,
-        title: 'Story 1',
+        title: 'Flower Decoration',
         image: 'story1.jpg',
-        description: 'Description 1',
+        description: 'Melvina Spring',
         avatar: "avatar1.png",
     },
     {
         id: 2,
-        title: 'Story 2',
+        title: 'Flower Decoration',
         image: 'story2.jpg',
-        description: 'Description 2',
-        avatar: "avatar2.png",
+        description: 'Melvina Spring',
+        avatar: "avatar1.png",
 
     },
     {
         id: 3,
-        title: 'Story 3',
+        title: 'Splash',
         image: 'story3.jpg',
-        description: 'Description 3',
+        description: 'Rwanda Melfor',
         avatar: "avatar3.png",
     },
     {
         id: 4,
-        title: 'Story 4',
+        title: 'Colorfull face',
         image: 'story5.png',
-        description: 'Description 3',
-        avatar: "avatar4.png",
+        description: 'Melvina Spring',
+        avatar: "avatar1.png",
 
     },
     // Add more stories as needed

@@ -30,7 +30,7 @@ export const StoriesCard: React.FunctionComponent<Props> = ({
             <div className='flex  shrink-0 h-[80px]'>
                 <User
                     name={name}
-                    description={description}
+                    description={`by ${description}`}
                     avatarProps={{
                         src: `/assets/${avatarProps?.src}`,
                         //src: avatarProps.src,

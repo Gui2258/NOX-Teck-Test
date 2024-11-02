@@ -80,7 +80,7 @@ export const TestimonialSlider: React.FC = () => {
     }
 
     return (
-        <div className="relative gap-4 flex items-center w-full max-w-[756px] min-h-[500px] md:min-h-[600px]">
+        <div className="relative gap-4 flex items-center w-full max-w-[756px] min-h-[500px] ">
             <Button
                 isIconOnly
                 onClick={handlePrevious}
@@ -88,7 +88,7 @@ export const TestimonialSlider: React.FC = () => {
             >
                 <LeftArrow />
             </Button>
-            <div className="shadow-lg w-full min-h-[200px] overflow-hidden">
+            <div id='box' className="shadow-lg w-full min-h-[200px] overflow-hidden">
                 <div className={`transition-all duration-300 ease-in-out
             ${slideDirection === 'slide-left' ? '-translate-x-full' :
                         slideDirection === 'slide-right' ? 'translate-x-full' : 'translate-x-0'}`}
