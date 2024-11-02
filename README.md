@@ -19,6 +19,9 @@ El diseño UI/UX de este proyecto se encuentra en Figma:
 - Sección de historias con diseño basado en tarjetas
 - Muestra de herramientas favoritas
 - Componentes UI modernos usando NextUI
+- Los datos de la seccion de testimonios son dinámicos y tienen sus componentes de carga y error
+- Consumo de API especificada para obtener los testimonios y de la api de usuairios(adicional)
+- Despliegue en Vercel
 
 ## Stack Tecnológico
 
