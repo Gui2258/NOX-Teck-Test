@@ -6,20 +6,26 @@ export const FAQ = () => {
     const faq = [
 
         {
-            question: "Enim sodales consequat adipiscing facilisis massa venenatis, non lorem lobortis?"
+            question: "Enim sodales consequat adipiscing facilisis massa venenatis, non lorem lobortis?",
+            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
-            question: "Venenatis nulla sagittis nunc, lobortis nec sollicitudin neque, dolor?"
+            question: "Venenatis nulla sagittis nunc, lobortis nec sollicitudin neque, dolor?",
+            answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
-            question: "Varius ultricies molestie tellus fermentum, viverra ipsum scelerisque etiam lorem?"
+            question: "Varius ultricies molestie tellus fermentum, viverra ipsum scelerisque etiam lorem?",
+            answer: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
         },
         {
-            question: "Nulla etiam vitae, at sagittis, nibh ultrices mattis feugiat faucibus?"
+            question: "Nulla etiam vitae, at sagittis, nibh ultrices mattis feugiat faucibus?",
+            answer: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         },
         {
-            question: "Sagittis consectetur gravida nec turpis eros, id sit et, dictum?"
-        },
+            question: "Sagittis consectetur gravida nec turpis eros, id sit et, dictum?",
+            answer: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores."
+        }
+
     ]
 
     return (
@@ -38,7 +44,7 @@ export const FAQ = () => {
             </div>
             <div className='gap-[24px]'></div>
             {
-                faq.map((faq, index) => (<FAQItem question={faq.question} key={index} />))
+                faq.map((faq, index) => (<FAQItem question={faq.question} answer={faq.answer} key={index} />))
             }
 
         </div>
