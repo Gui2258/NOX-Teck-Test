@@ -79,7 +79,7 @@ export const TestimonialSlider: React.FC = () => {
                 onClick={handlePrevious}
                 className="bg-white shadow-lg rounded-full z-10 min-w-[48px] min-h-[48px]"
             >
-                <LeftArrow disabled={false} />
+                <LeftArrow />
             </Button>
             <div className=" w-full min-h-[200px]">
                 <TestimonialCard data={data[currentIndex]} />
@@ -89,7 +89,7 @@ export const TestimonialSlider: React.FC = () => {
                 onClick={handleNext}
                 className="bg-white shadow-lg rounded-full z-10 min-w-[48px] min-h-[48px]"
             >
-                <RightArrow disabled />
+                <RightArrow />
             </Button>
         </div>
     );
