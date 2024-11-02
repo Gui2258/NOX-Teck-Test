@@ -8,6 +8,7 @@ import { MapIcon } from '@/icons/MapIcon';
 import { MarkDown } from '@/icons/MarkDown';
 import { PigIcon } from '@/icons/PigIcon';
 import { ToolCard } from './ToolCard';
+import { LockIcon } from '@/icons/LockIcon';
 
 const tools = [
     {
@@ -50,6 +51,11 @@ const tools = [
         title: 'Facilisi vel malesuada',
         desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
     },
+    {
+        icon: <LockIcon />,
+        title: 'Facilisi vel malesuada',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+    },
 ];
 
 export const FavoritesTool = () => {
@@ -57,7 +63,7 @@ export const FavoritesTool = () => {
         <div className="flex flex-col items-center gap-[32px] px-[16px] py-[32px]">
             <div className='flex flex-col md:max-w-[900px] items-center text-center'>
                 <h1 className={`gradientText font-bold text-[24px] md:text-[56px]`}>
-                    Your Favorite Tools
+                    Frequently asked questions
                 </h1>
                 <p className="text-[16px] text-[#475569] text-center md:text-[20px]">
                     In risus nec molestie at in pulvinar tellus. At integer id
