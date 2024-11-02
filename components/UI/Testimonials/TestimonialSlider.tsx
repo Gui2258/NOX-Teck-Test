@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { UsersResponse } from '../../types';
+import { TestimonialsResponse } from '../../types';
 import { Button } from '@nextui-org/react';
 import { Card, Skeleton } from '@nextui-org/react';
 import { TestimonialCard } from './TestimonialCard';
@@ -10,7 +10,7 @@ import { getStories } from '@/components/Utils/Fetcher';
 
 export const TestimonialSlider: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [data, setData] = useState<UsersResponse[]>([]);
+    const [data, setData] = useState<TestimonialsResponse[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<boolean>(false);
 
@@ -71,33 +71,24 @@ export const TestimonialSlider: React.FC = () => {
     }
 
     return (
-        <div className="relative gap-4 flex items-center  w-full max-w-[600px]">
+        // Add this CSS class to the TestimonialCard wrapper div
+        //<div className="relative gap-4 flex items-center w-full max-w-[600px] transition-opacity duration-300 ease-in-out">
+
+        <div className="relative gap-4 flex items-center w-full max-w-[600px]">
             <Button
                 isIconOnly
                 onClick={handlePrevious}
-                className="bg-white shadow-lg rounded-full"
+                className="bg-white shadow-lg rounded-full z-10"
             >
                 <LeftArrow disabled={false} />
             </Button>
-            <TestimonialCard data={data[currentIndex]} />
-            {/* <Card className="p-6">
-                {data.length > 0 && (
-                    <div className="space-y-4">
-                        <h3 className="text-xl font-bold">{data[currentIndex].title}</h3>
-                        <p className="text-gray-600">{data[currentIndex].body}</p>
-                        <p className="text-sm text-gray-500">User ID: {data[currentIndex].userId}</p>
-                    </div>
-                )}
-            </Card> */}
-
-            <div className="absolute top-1/2 -translate-y-1/2 w-full flex justify-between px-4">
-
+            <div className="transition-all duration-300 ease-in-out transform">
+                <TestimonialCard data={data[currentIndex]} />
             </div>
             <Button
-
                 isIconOnly
                 onClick={handleNext}
-                className="bg-white shadow-lg rounded-full"
+                className="bg-white shadow-lg rounded-full z-10"
             >
                 <RightArrow disabled />
             </Button>

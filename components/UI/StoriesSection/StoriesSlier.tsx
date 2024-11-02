@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { StoriesCard } from './StoriesCard';
-import { UsersResponse } from '@/components/types';
+import { TestimonialsResponse } from '@/components/types';
 
 interface StoryCard {
     id: number;
@@ -32,7 +32,7 @@ const mockStories: StoryCard[] = [
 ];
 
 interface StoriesCardProps {
-    stories?: Promise<UsersResponse>;
+    stories?: Promise<TestimonialsResponse>;
 }
 
 export const StoriesSlier: React.FC<StoriesCardProps> = async () => {
