@@ -1,6 +1,6 @@
 # NOX-Tech-Test
 
-Proyecto de prueba técnica que muestra una aplicación web moderna construida con Next.js, TypeScript y Tailwind CSS.
+Proyecto de prueba técnica que muestra una aplicación web moderna construida con Next.js, TypeScript y Tailwind CSS. Se seleccionó este diseño porque es moderno y minimalista, además contiene elementos que permiten consumir la api que se proporciona.
 
 ## Demo en vivo
 
