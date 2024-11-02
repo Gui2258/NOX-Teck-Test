@@ -73,7 +73,7 @@ export const TestimonialSlider: React.FC = () => {
     return (
         // Add this CSS class to the TestimonialCard wrapper div
         //<div className="relative gap-4 flex items-center w-full max-w-[600px] transition-opacity duration-300 ease-in-out">
-        <div className="relative gap-4 flex items-center w-full max-w-[600px] min-h-[500px] md:min-h-[600px]">
+        <div className="relative gap-4 flex items-center w-full max-w-[600px] min-h-[500px] md:min-h-[600px] ">
             <Button
                 isIconOnly
                 onClick={handlePrevious}
@@ -81,7 +81,7 @@ export const TestimonialSlider: React.FC = () => {
             >
                 <LeftArrow disabled={false} />
             </Button>
-            <div className="transition-all duration-300 ease-in-out transform w-full min-h-[200px]">
+            <div className=" w-full min-h-[200px]">
                 <TestimonialCard data={data[currentIndex]} />
             </div>
             <Button
