@@ -60,17 +60,19 @@ const tools = [
 
 export const FavoritesTool = () => {
     return (
-        <div className="flex flex-col items-center gap-[32px] px-[16px] py-[32px]">
-            <div className='flex flex-col md:max-w-[900px] items-center text-center'>
-                <h1 className={`gradientText font-bold text-[24px] md:text-[56px]`}>
-                    Frequently asked questions
-                </h1>
-                <p className="text-[16px] text-[#475569] text-center md:text-[20px]">
-                    In risus nec molestie at in pulvinar tellus. At integer id
-                    condimentum gravida nisi nisl. Sem vitae porttitor arcu congue
-                    sem erat et sit faucibus. Sollicitudin elit gravida tellus
-                    mattis porttitor.
-                </p>
+        <>
+            <div className="flex flex-col items-center gap-[32px] mt-5 px-[16px] py-[32px]">
+                <div className='flex flex-col md:max-w-[900px] items-center text-center'>
+                    <h1 className={`gradientText font-bold text-[24px] md:text-[56px]`}>
+                        Your favourite tools
+                    </h1>
+                    <p className="text-[16px] text-[#475569] text-center md:text-[20px]">
+                        In risus nec molestie at in pulvinar tellus. At integer id
+                        condimentum gravida nisi nisl. Sem vitae porttitor arcu congue
+                        sem erat et sit faucibus. Sollicitudin elit gravida tellus
+                        mattis porttitor.
+                    </p>
+                </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px]'>
                 {tools.map((tool, index) => (
@@ -82,6 +84,6 @@ export const FavoritesTool = () => {
                     />
                 ))}
             </div>
-        </div>
+        </>
     );
 };
