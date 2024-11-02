@@ -21,7 +21,7 @@ export const Main: React.FunctionComponent = () => {
                         <Input
                             width={'221px'}
                             type="name"
-                            label={<span className='text-[16px] md:text-[20px] text-grayText'>Enter your name</span>}
+                            label={<span className='text-[16px] md:text-[24px] text-grayText'>Enter your name</span>}
                             //placeholder="Enter your name"
                             variant="bordered"
                             radius='full'

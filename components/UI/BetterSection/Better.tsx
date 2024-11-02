@@ -13,11 +13,21 @@ export const Better = () => {
                 porttitor pharetra sed in mauris elementum sollicitudin.
             </p>
 
-            <Button className="text-white w-[144px] h-[48px] md:w-[208] md:h-[64]" color="primary" radius='full'>
+
+
+
+
+            <Button className="text-white w-[144px] h-[48px] md:w-[208] md:h-[64px] px-[16px] md:px-[24px] md:p-[20px] md:text-[24px] md:hidden" color="primary" style={{ width: 132, borderRadius: 16 }}>
                 <span className='font-medium md:font-bold md:text-[24px] md:py-[20px] md:px-[24px]'>
                     Start Now
                 </span>
             </Button>
+            <Button className="text-white w-[144px] h-[48px] md:w-[208] md:h-[64px] px-[16px] md:px-[24px] md:p-[20px] md:text-[24px] hidden md:flex" color="primary" style={{ width: 208, borderRadius: 26 }}>
+                <span className='font-medium md:font-bold md:text-[24px] md:py-[20px] md:px-[24px]'>
+                    Start Now
+                </span>
+            </Button>
+
 
             <div className='hidden md:block'>
                 <DeskPng />
