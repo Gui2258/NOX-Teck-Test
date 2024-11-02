@@ -56,18 +56,20 @@ export const TestimonalsUser: React.FunctionComponent<ITestimonalsUserProps> = (
                 className="rounded-full"
             /> */}
             <User
-                name={userData?.name}
-                description={userData?.company.name}
+
+                name={<h4 className="font-normal text-[18px] text-[#0F172A]">
+                    {userData?.name}
+                </h4>}
+                description=
+                {userData?.company.name}
+
                 avatarProps={{
+                    className: "md:h-[64px] md:w-[64px] h-[48px] w-[48px] rounded-full",
                     src: `https://i.pravatar.cc/64?img=${id}`,
                 }}
             />
-            <h4 className="font-normal text-[18px] text-[#0F172A]">
-                {userData?.name}
-            </h4>
-            <p className="font-normal text-[16px] text-[#0F172A]">
-                {userData?.company.name}
-            </p>
+
+
         </div>
     );
 };
