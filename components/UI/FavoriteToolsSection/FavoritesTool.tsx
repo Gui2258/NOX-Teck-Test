@@ -54,7 +54,7 @@ const tools = [
     {
         icon: <FinderIcon />,
         title: 'Facilisi vel malesuada',
-        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integersit.',
+        desc: 'Nibh cursus ultricies id neque proin urna vivamus bibendum. Quam sit platea integer sit.',
     },
 ];
 

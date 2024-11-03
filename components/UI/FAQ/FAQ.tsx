@@ -42,7 +42,7 @@ export const FAQ = () => {
                     mattis porttitor.
                 </p>
             </div>
-            <div className='gap-[24px]'></div>
+
             {
                 faq.map((faq, index) => (<FAQItem question={faq.question} answer={faq.answer} key={index} />))
             }
