@@ -14,7 +14,7 @@ export const NavBarMain: React.FunctionComponent = () => {
         <>
             <nav className="relative h-20 flex w-full justify-between items-center bg-white p-4 md:px-[80px] text-[35px]">
                 <div className={`font-bold text-black`}>
-                    brak<span className="text-rosf">io</span>
+                    break<span className="text-rosf">io</span>
                 </div>
                 <div className='md:hidden'>
                     <Button

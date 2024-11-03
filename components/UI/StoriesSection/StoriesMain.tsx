@@ -4,8 +4,8 @@ import { StoriesSlier } from './StoriesSlier';
 export const StoriesMain = () => {
 
     return (
-        <div className="flex w-full flex-col justify-center items-center gap-8 px-[16px] py-[48px]">
-            <div className='md:max-w-[900px]'>
+        <div className="flex w-full flex-col justify-center items-center gap-8 px-[16px] py-[48px] ">
+            <div className='md:max-w-[900px] gap-8 flex flex-col px-[16px]'>
 
                 <h1 className={`gradientText text-center text-[24px] md:text-[56px] font-bold`}>
                     Stories from our users

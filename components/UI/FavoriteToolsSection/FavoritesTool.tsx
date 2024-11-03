@@ -62,7 +62,7 @@ export const FavoritesTool = () => {
     return (
         <>
             <div className="flex flex-col items-center gap-[32px] mt-5 px-[16px] py-[32px]">
-                <div className='flex flex-col md:max-w-[900px] items-center text-center'>
+                <div className='flex flex-col md:max-w-[900px]  gap-[32px] items-center text-center'>
                     <h1 className={`gradientText font-bold text-[24px] md:text-[56px]`}>
                         Your favourite tools
                     </h1>
