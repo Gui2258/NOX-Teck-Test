@@ -28,7 +28,7 @@ const tools = [
     },
     {
         icon: <LockIcon />,
-        title: 'Sed aliquam lectus',
+        title: 'Hendrerit blandit',
         desc: 'A aliquam pharetra in nec vitae ultrices commodo placerat eget.',
     },
     {

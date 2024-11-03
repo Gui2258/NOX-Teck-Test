@@ -7,7 +7,7 @@ export const Fotter = () => {
     const foterElements = [
         {
             title: 'Categories',
-            links: ['User Interfaces', 'User Experiencie', 'Digital Media', 'Lifestyle', "Programming", "Animation"],
+            links: ['User Interface', 'User Experiencie', 'Digital Media', 'Lifestyle', "Programming", "Animation"],
         },
         {
             title: 'Proudct',
@@ -22,8 +22,8 @@ export const Fotter = () => {
             links: ['Help Center', 'Blog', 'Tutorials', "FAQs", "Community", "Events"],
         },
         {
-            title: 'Suport',
-            links: ['Contact Us', 'Developers', 'Documentatio', "Integrations", "Reports", "Webinar"],
+            title: 'Support',
+            links: ['Contact Us', 'Developers', 'Documentation', "Integrations", "Reports", "Webinar"],
         },
         {
             title: 'Company',

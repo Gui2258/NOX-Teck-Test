@@ -66,7 +66,7 @@ export const TestimonialSlider: React.FC = () => {
 
     if (error) {
         return (
-            <div className="flex flex-col items-center justify-center">
+            <div id='testCard' className="flex flex-col items-center justify-center">
                 <h1 className="text-2xl font-bold mb-4">Error loading testimonials</h1>
                 <Button
                     color="primary"
@@ -80,7 +80,7 @@ export const TestimonialSlider: React.FC = () => {
     }
 
     return (
-        <div className="relative gap-4 flex items-center w-full max-w-[756px] min-h-[500px] ">
+        <div className="relative gap-4 flex items-center w-full max-w-[756px] ">
             <Button
                 isIconOnly
                 onClick={handlePrevious}
@@ -105,7 +105,7 @@ export const TestimonialSlider: React.FC = () => {
             </Button>
 
             {/* Mobile navigation buttons */}
-            <div className="absolute bottom-[-50px] pb-7 left-0 right-0 flex justify-center gap-4 sm:hidden">
+            <div className="absolute bottom-[-100px] pb-7 left-0 right-0 flex justify-center gap-4 sm:hidden">
                 <Button
                     isIconOnly
                     onClick={handlePrevious}

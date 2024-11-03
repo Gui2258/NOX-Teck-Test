@@ -36,7 +36,7 @@ export const Social = () => {
             <div className='flex gap-2 flex-col md:flex-row'>
 
                 <div className={`font-medium text-[20px] text-black `}>
-                    brak<span className="text-rosf">io</span>
+                    break<span className="text-rosf">io</span>
                 </div>
 
                 <p className='text-[#475569] text-[16px]'>@ 2023 - All rights reserved</p>
