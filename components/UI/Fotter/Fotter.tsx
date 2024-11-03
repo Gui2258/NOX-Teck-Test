@@ -43,7 +43,7 @@ export const Fotter = () => {
                 ))}
             </div>
 
-            <Divider className="my-4" />
+            <Divider className="mt-4" />
 
             <Social />
         </footer>

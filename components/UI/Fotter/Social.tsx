@@ -33,7 +33,7 @@ export const Social = () => {
 
     return (
         <div className=' flex flex-col justify-between md:flex-row py-[24px] gap-[16px]'>
-            <div className='flex gap-1'>
+            <div className='flex gap-2 flex-col md:flex-row'>
 
                 <div className={`font-medium text-[20px] text-black `}>
                     brak<span className="text-rosf">io</span>
