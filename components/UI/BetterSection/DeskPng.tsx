@@ -19,7 +19,7 @@ export const DeskPng = () => {
     }, []);
 
     return (
-        <Image src={'/assets/DeskView.png'} width={windowWidth - 100} height={830} alt="vista de usuarios" />
+        <Image src={'/assets/Frame47.svg'} width={windowWidth - 100} height={830} alt="vista de usuarios" />
     )
 
 }

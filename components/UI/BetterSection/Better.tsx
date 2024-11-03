@@ -33,6 +33,7 @@ export const Better = () => {
 
                 {/* <MobileScreenIcon /> */}
             </div>
+
             <div className='hidden md:block'>
                 <DeskPng />
             </div>
