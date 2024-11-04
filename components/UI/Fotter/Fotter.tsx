@@ -27,7 +27,7 @@ export const Fotter = () => {
         },
         {
             title: 'Company',
-            links: ['About', 'Press', "Events", "Carrers", "Customers", "Partners"],
+            links: ['About', 'Press', "Events", "Careers", "Customers", "Partners"],
         },
     ];
 
